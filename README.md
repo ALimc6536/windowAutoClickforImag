@@ -1,0 +1,2 @@
+# windowAutoClickforImag
+自动点击一个窗口中的特定图像
