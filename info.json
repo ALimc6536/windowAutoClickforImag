@@ -3,10 +3,13 @@
     "winName":"MuMu模拟器12",
     "windowSize":[1120, 630],
     "steps":[
+        ["暂停","sleep",1],
         ["做饭","number",1,"zuofan.jpg"],
-        ["田园沙拉","number",1,"tianyuanshala.jpg"],
+        ["暂停","sleep",1],
+        ["蓝莓酱","number",1,"lanmeijiang.jpg"],
+        ["暂停","sleep",1],
         ["开始烹饪","number",1,"kaishipengren.jpg"],
-        ["铲饭","waitFor","nafan.jpg","chanzi.jpg"],
+        ["铲饭","waitFor","nafan.jpg","chanzi2.jpg",1],
         ["拿饭","number",1,"nafan.jpg"]
     ]
 }
