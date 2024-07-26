@@ -143,7 +143,10 @@ while 1:
                     adjustWindow(appHwnd, appWindowW, appWindowH)
                 clickWindow(appHwnd, avgpos[0][0], avgpos[0][1])
                 item[2]-=1
-                if item[2]<=0:item=[item[0]]
+                if item[2]<=0:
+                    item=[item[0]]
+                elif len(item)>=5:
+                    time.sleep(item[4])
         elif item[1]=='waitFor':
             rectangle, avgpos=getTemplateImageInImage(
                 cv2.imread('.\\src\\'+item[2]),
